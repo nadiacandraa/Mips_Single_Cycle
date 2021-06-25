@@ -2,7 +2,7 @@
 #include <arpa/inet.h>
 #include <sys/types.h>
 #include <string.h>
-#include <instructions.h>
+#include "instructions.h"
 
 struct inst_t {
     unsigned int opcode;
